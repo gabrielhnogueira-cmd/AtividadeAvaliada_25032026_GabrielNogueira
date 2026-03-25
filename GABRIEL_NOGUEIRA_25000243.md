@@ -66,10 +66,13 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 
 # 5. Casos de Uso
 
-## **UCXX — Nome do Caso de Uso**
+## **UC01 — Realizar Venda**
 **Ator(es):** Atendente.
+
 **Descrição:** Registrar a saída de produtos e o recebimento de valores.
+
 **Pré-condições:** Usuário logado e produto em estoque. 
+
 **Pós-condições:** Estoque baixado e venda registrada.
 
 ### Fluxo Principal

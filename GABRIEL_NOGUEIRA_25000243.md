@@ -30,6 +30,8 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 
 **RN05 — Alerta de Reposição:** O sistema deve notificar o gerente quando o estoque atingir o limite mínimo.
 
+---
+
 # 3. Requisitos Funcionais 
 
 **RF01 —** Realizar venda de produtos.
@@ -47,3 +49,15 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 **RF07 —** Gerar contas a receber a partir de vendas a prazo.
   
 **RF08 —** Emitir comprovante de venda detalhado.
+
+---
+
+# 4. Requisitos Não Funcionais 
+
+**RNF01 —** O sistema deve ser acessível via Web.
+
+**RNF02 —** O tempo de processamento de uma venda não deve exceder 5 segundos.
+
+**RNF03 —** Controle de acesso por perfis comoa a atendente, farmacêutico e o gerente.
+
+**RNF04 —** Persistência de dados em banco de dados com backup diário.

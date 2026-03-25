@@ -61,3 +61,30 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 **RNF03 —** Controle de acesso por perfis comoa a atendente, farmacêutico e o gerente.
 
 **RNF04 —** Persistência de dados em banco de dados com backup diário.
+
+---
+
+# 5. Casos de Uso
+
+## **UCXX — Nome do Caso de Uso**
+**Ator(es):** Atendente.
+**Descrição:** Registrar a saída de produtos e o recebimento de valores.
+**Pré-condições:** Usuário logado e produto em estoque. 
+**Pós-condições:** Estoque baixado e venda registrada.
+
+### Fluxo Principal
+1. Iniciar venda; 
+2. Identificar Cliente; 
+3. Adicionar itens;  
+4. Selecionar pagamento;
+5. Finalizar.
+
+### Fluxos Alternativos / Exceções
+- FA01 —  
+- FA02 —  
+
+### Relacionamentos
+- **Include:** UC02 (Consultar Estoque), UC03 (Identificar Cliente).  
+- **Extend:** UC05 (Validar Receita), UC06 (Gerar Contas a Receber).
+
+

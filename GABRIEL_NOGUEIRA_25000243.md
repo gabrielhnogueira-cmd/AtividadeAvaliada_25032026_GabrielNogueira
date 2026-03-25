@@ -32,18 +32,18 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 
 # 3. Requisitos Funcionais 
 
-**RF01 — ** Realizar venda de produtos.
+**RF01 —** Realizar venda de produtos.
 
-**RF02 — ** Consultar estoque em tempo real.
+**RF02 —** Consultar estoque em tempo real.
   
-**RF03 — ** Cadastrar clientes e fornecedores.
+**RF03 —** Cadastrar clientes e fornecedores.
   
-**RF04 — ** Registrar entrada de mercadorias (compras).
+**RF04 —** Registrar entrada de mercadorias (compras).
   
-**RF05 — ** Validar receitas médicas para produtos controlados.
+**RF05 —** Validar receitas médicas para produtos controlados.
   
-**RF06 — ** Gerar contas a pagar a partir de compras.
+**RF06 —** Gerar contas a pagar a partir de compras.
   
-**RF07 — ** Gerar contas a receber a partir de vendas a prazo.
+**RF07 —** Gerar contas a receber a partir de vendas a prazo.
   
-**RF08 — ** Emitir comprovante de venda detalhado.
+**RF08 —** Emitir comprovante de venda detalhado.

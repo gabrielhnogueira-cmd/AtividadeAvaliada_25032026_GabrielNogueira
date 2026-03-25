@@ -83,8 +83,8 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 5. Finalizar.
 
 ### Fluxos Alternativos / Exceções
-- FA01 —  
-- FA02 —  
+- FA01 — Se o item for controlado, o sistema bloqueia a inserção até que o Farmacêutico insira sua senha e valide a receita médica.
+- FA02 — Se a opção for "A Prazo", o sistema verifica o limite de crédito do cliente e gera um lançamento automático no contas a receber.
 
 ### Relacionamentos
 - **Include:** UC02 (Consultar Estoque), UC03 (Identificar Cliente).  

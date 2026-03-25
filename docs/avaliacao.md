@@ -1,9 +1,9 @@
 # Avaliação — Engenharia de Software
 **Sistema Integrado de Gestão de Farmácia — MVP Definido pelo Estudante**
 
-Aluno: *Preencha aqui*  
-RA: *Preencha aqui*  
-Data: *Preencha aqui*  
+Aluno: Gabriel Henrique Lopes Nogueira
+RA: 25000243
+Data: 25/03/2026
 
 ---
 
@@ -23,11 +23,11 @@ Exemplo de início:
 # 2. Regras de Negócio (mínimo: 5)
 Liste e descreva **cada RN** de forma clara.
 
-**RN01 —**  
-**RN02 —**  
-**RN03 —**  
-**RN04 —**  
-**RN05 —**  
+**RN01 — Validação de Receita**  
+**RN02 — Bloqueio de Estoque Negativo** 
+**RN03 — Registro de Contas a Receber**  
+**RN04 — Atualização de Custo na Compra**  
+**RN05 — Alerta de Reposição**  
 
 (Adicione mais se quiser.)
 

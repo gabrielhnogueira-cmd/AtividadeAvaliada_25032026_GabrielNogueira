@@ -26,7 +26,7 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 
 **RN03 — Registro Financeiro Automático:** Vendas a prazo geram automaticamente um título no Contas a Receber.
 
-**RN04 — Atualização de Custo:** Toda entrada de mercadoria via fornecedor deve atualizar o preço de custo médio do produto.
+**RN04 — Atualização de Custo:** Toda entrada de mercadoria do fornecedor deve atualizar o preço de custo médio do produto.
 
 **RN05 — Alerta de Reposição:** O sistema deve notificar o gerente quando o estoque atingir o limite mínimo.
 

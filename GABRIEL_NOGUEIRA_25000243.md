@@ -38,7 +38,7 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
   
 **RF03 —** Cadastrar clientes e fornecedores.
   
-**RF04 —** Registrar entrada de mercadorias (compras).
+**RF04 —** Registrar entrada de mercadorias.
   
 **RF05 —** Validar receitas médicas para produtos controlados.
   

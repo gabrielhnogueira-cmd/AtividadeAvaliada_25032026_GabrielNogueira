@@ -337,6 +337,11 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 
 ---
 
+## **Diagrama Geral**
+
+<img width="786" height="933" alt="image" src="https://github.com/user-attachments/assets/c6e846d6-6989-4290-b17d-3839ba6a84c1" />
+
+
 
 
 

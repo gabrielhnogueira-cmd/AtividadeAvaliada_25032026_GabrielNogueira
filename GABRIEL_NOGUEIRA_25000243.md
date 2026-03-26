@@ -90,4 +90,95 @@ Meu MVP cobre o ciclo essencial de operação de balcão e gestão básica de su
 - **Include:** UC02 (Consultar Estoque), UC03 (Identificar Cliente).  
 - **Extend:** UC05 (Validar Receita), UC06 (Gerar Contas a Receber).
 
+<img width="786" height="424" alt="image" src="https://github.com/user-attachments/assets/45a28f82-7cb8-48b1-8169-967ff5dc0f53" />
+
+---
+
+## **UC02 — Consultar Estoque**
+**Ator(es):** Atendente, Gerente.
+
+**Descrição:** Verificar a disponibilidade física de um item em tempo real.
+
+**Pré-condições:** Produto cadastrado. 
+
+**Pós-condições:** Informação de saldo exibida.
+
+### Fluxo Principal
+1. Informar nome ou código; 
+2. Sistema busca saldo; 
+3. Exibir quantidade.
+
+### Fluxos Alternativos / Exceções
+- FA01 — Caso o produto esteja zerado na unidade atual, o usuário pode solicitar a verificação de saldo em outras farmácias da rede.
+- FA02 — Se o código ou nome informado não retornar resultados, o sistema exibe a mensagem "Produto não cadastrado" e oferece a opção de novo cadastro
+
+### Relacionamentos 
+- **Extend:** UC04 (Cadastrar Produto/Cliente), UC10 (Emitir Relatórios/Alertas).
+
+<img width="445" height="433" alt="image" src="https://github.com/user-attachments/assets/0bb34def-7160-4921-a1fc-91715cc48fdc" />
+
+---
+
+## **UC03 — Identificar Cliente**
+**Ator(es):** Atendente.
+
+**Descrição:** Localizar o cadastro de um cliente para vincular à venda ou consulta.
+
+**Pré-condições:** O atendente deve estar autenticado no sistema;. 
+
+**Pós-condições:** O cliente é identificado e vinculado à operação atual;.
+
+### Fluxo Principal
+1. Solicitar CPF ou Nome; 
+2. Sistema pesquisa na base central; 
+3. Exibir dados do cliente.
+
+### Fluxos Alternativos / Exceções
+- FA01 — Se o cliente não for encontrado, o sistema sugere o redirecionamento para o cadastro
+
+### Relacionamentos 
+- **Extend:** UC04 (Cadastrar Cliente).
+
+<img width="599" height="206" alt="image" src="https://github.com/user-attachments/assets/916240d5-2e1f-4500-a551-a9624a46b3f2" />
+
+---
+
+## **UC04 — Cadastrar Cliente / Produto**
+**Ator(es):** Atendente, Gerente.
+
+**Descrição:** Realizar a inclusão de novos registros de clientes ou produtos no sistema centralizado da rede.
+
+**Pré-condições:** Usuário deve ter permissão de acesso ao módulo de cadastros;
+
+**Pós-condições:** Novo registro salvo no banco de dados;
+
+### Fluxo Principal
+1. Novo Cadastro;
+2. Solicita a categoria; 
+3. Preenche os campos obrigatórios;  
+4. Valida se o registro já existe;
+5. Confirma a gravação dos dados.
+
+### Fluxos Alternativos / Exceções
+- FA01 — Se o CPF ou o Código de Barras já constar no sistema, o sistema exibe erro e impede a gravação.
+- FA02 — Se campos obrigatórios estiverem vazios, o sistema destaca os campos em vermelho.
+
+### Relacionamentos
+- **Include:** UC03 (Identificar Cliente), UC02 (Consultar Estoque).  
+- **Extend:** UUC04 (Validar Dados).
+
+<img width="786" height="374" alt="image" src="https://github.com/user-attachments/assets/f246751c-6bd7-4376-a179-618cc1026162" />
+
+---
+
+
+
+
+
+
+
+
+
+
+
 
